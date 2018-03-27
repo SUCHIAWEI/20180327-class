@@ -21,9 +21,10 @@ public class book {
     public String getPublisher() { return publisher; }
 
     public void setIsbn (String isbn1){ this.isbn =isbn1;
-    if (isbn.length()<13)
-        isbn="error we need 13 number";
-    else isbn =isbn1;}
+    if (isbn.length()<13){
+        isbn="error we need 13 number";}
+    else {isbn =isbn1;}
+    }
     public String getIsbn() { return isbn; }
 
     public void setPrice (int price1){ this.price =price1;
